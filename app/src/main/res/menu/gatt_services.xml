@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+    <item android:id="@+id/sensor"
+        android:title="Activar Sensor"
+        android:showAsAction="ifRoom"/>-->
+    <item android:id="@+id/menu_connect"
+          android:title="@string/menu_connect"
+          android:orderInCategory="100"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_disconnect"
+          android:title="@string/menu_disconnect"
+          android:orderInCategory="101"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/ledrojo"
+        android:title="rojo"
+        android:icon="@drawable/ledr"
+        android:showAsAction="always"/>
+    <item android:id="@+id/ledverde"
+        android:title="verde"
+        android:icon="@drawable/ledv"
+        android:showAsAction="always"/>
+</menu>

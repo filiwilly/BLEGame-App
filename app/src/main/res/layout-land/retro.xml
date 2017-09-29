@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:src="@drawable/gpad"
+        android:id="@+id/linearLayout"
+        android:layout_marginStart="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/pad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cpad" />
+            <Button
+                android:id="@+id/bmid1"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignEnd="@+id/bup2"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/bup"
+                android:background="@android:color/transparent"
+                android:layout_width="64dp"
+                android:layout_height="65dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/bmid2"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:id="@+id/bup4"
+                android:layout_toEndOf="@+id/bup2"
+                android:background="@android:color/transparent"
+                android:layout_width="48dp"
+                android:layout_height="65dp"
+                android:layout_alignBottom="@id/pad"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/bmid3"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_toLeftOf="@+id/bup4"
+                android:layout_alignBottom="@id/pad"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:id="@+id/bup2"
+                android:background="@android:color/transparent"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+            <Button
+                android:id="@+id/bup3"
+                android:background="@android:color/transparent"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignRight="@id/pad"
+                android:layout_centerVertical="true" />
+            <Button
+                android:id="@+id/bmid4"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_alignBottom="@id/pad"
+                android:layout_toRightOf="@id/bup4"
+                android:background="@android:color/transparent"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/linearLayout"
+        android:layout_toStartOf="@+id/linearLayout2"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/start3"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView4" />
+
+        <Button
+            android:id="@+id/bup7"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/imageView4">
+        </Button>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btns2"
+            android:id="@+id/imageView6" />
+        <Button
+            android:id="@+id/bup6"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="5dp"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:id="@+id/bup5"
+            android:background="@android:color/transparent"
+            android:layout_width="90dp"
+            android:layout_height="95dp"
+            android:layout_marginStart="26dp"
+            android:layout_alignRight="@+id/imageView6"/>
+    </RelativeLayout>
+</RelativeLayout>

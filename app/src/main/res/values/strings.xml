@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">BLEGame</string>
+    <string name="ble_not_supported">BLE no soportado</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Dirección:</string>
+    <string name="label_state">Estado:</string>
+    <string name="no_data">No hay conexión</string>
+    <string name="connected">Conectado</string>
+    <string name="disconnected">Desconectado</string>
+    <string name="title_devices">Dispositivos BLE</string>
+    <string name="error_bluetooth_not_supported">Bluetooth 4.0 no soportado</string>
+
+    <string name="unknown_device">Dispositivo desconocido</string>
+    <string name="unknown_characteristic">Caractrística desconocida</string>
+    <string name="unknown_service">Servicio desconocido</string>
+    
+    <string name="send">Enviar</string>
+
+    <!-- Menú -->
+    <string name="menu_connect">Conectar</string>
+    <string name="menu_disconnect">Desconectar</string>
+    <string name="menu_scan">Buscar</string>
+    <string name="menu_stop">Parar</string>
+
+    <!-- Colores -->
+    <item name="color1" type="color">#2c3e50</item>
+    <item name="color2" type="color">#E74C3C</item>
+    <item name="color3" type="color">#ECF0F1</item>
+</resources>
